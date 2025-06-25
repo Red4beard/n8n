@@ -33,14 +33,14 @@ The system leverages GPT-4 via LangChain’s Agent node, and also supports voice
 
 | Node | Description |
 |------|-------------|
-| 🟢 `Telegram Trigger` | Listens for new messages or voice notes |
-| 🟢 `Switch` | Branches based on message type (text or voice) |
-| 🟡 `Telegram` | Downloads the voice file |
-| 🧠 `OpenAI Transcribator` | Converts voice into text |
-| 🔁 `Text edit fields` | Passes the text to the agent |
+| 🔵 `Telegram Trigger` | Listens for new messages or voice notes |
+| 🔁 `Switch` | Branches based on message type (text or voice) |
+| 🔵 `Telegram` | Downloads the voice file |
+| 🤖 `OpenAI Transcribator` | Converts voice into text |
+| 📝`Text edit fields` | Passes the text to the agent |
 | 💬 `AI Agent` | Analyzes the profession and generates the HAS matrix |
 | 📤 `Answer to user` | Sends the formatted matrix back via Telegram |
-| 🧠 `Langchain LLM`, `Memory module`, `Tavily Web Search` | Enhance context, continuity, and factual accuracy |
+| 🤖 `Langchain LLM`, `Memory module`, `Tavily Web Search` | Enhance context, continuity, and factual accuracy |
 
 ---
 
