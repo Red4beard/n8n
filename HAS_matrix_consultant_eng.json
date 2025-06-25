@@ -37,11 +37,11 @@
       ],
       "id": "20d50f76-c100-4054-b9d2-ad26df1a5f79",
       "name": "Telegram Trigger",
-      "webhookId": "12a7ec1d-580c-4149-9907-eb35d7433664",
+      "webhookId": "REPLACE_IT_YOUR_DATA",
       "credentials": {
         "telegramApi": {
-          "id": "ZAmV9Bg8CB2dFI64",
-          "name": "has_matrix_bot"
+          "id": "REPLACE_IT_YOUR_DATA",
+          "name": "REPLACE_IT_YOUR_DATA"
         }
       }
     },
@@ -125,11 +125,11 @@
       ],
       "id": "abb2a859-bb7c-4822-a5cc-d1fe68f386e0",
       "name": "Telegram",
-      "webhookId": "41e48895-5416-4d2b-b7fe-37c3d6389970",
+      "webhookId": "REPLACE_IT_YOUR_DATA",
       "credentials": {
         "telegramApi": {
-          "id": "ZAmV9Bg8CB2dFI64",
-          "name": "has_matrix_bot"
+          "id": "REPLACE_IT_YOUR_DATA",
+          "name": "REPLACE_IT_YOUR_DATA"
         }
       }
     },
@@ -151,7 +151,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://api.telegram.org/bot8107609718:AAEAqnvJRtcdB9dFJzUONtE9n6ERfS-wEo0/sendChatAction",
+        "url": "https://api.telegram.org/botREPLACE_IT_YOUR_DATA/sendChatAction",
         "sendBody": true,
         "bodyParameters": {
           "parameters": [
@@ -194,7 +194,7 @@
       "name": "OpenAI Transcribator",
       "credentials": {
         "openAiApi": {
-          "id": "dr3geCLqIJdHR8ll",
+          "id": "REPLACE_IT_YOUR_DATA",
           "name": "OpenAi account"
         }
       }
@@ -219,7 +219,7 @@
       "name": "OpenAI LLM",
       "credentials": {
         "openAiApi": {
-          "id": "dr3geCLqIJdHR8ll",
+          "id": "REPLACE_IT_YOUR_DATA",
           "name": "OpenAi account"
         }
       }
@@ -245,7 +245,7 @@
         "url": "https://api.tavily.com/search",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "{\n    \"api_key\": \"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\",\n    \"query\": \"{searchTerm}\",\n    \"search_depth\": \"basic\",\n    \"include_answer\": true,\n    \"topic\": \"news\",\n    \"include_raw_content\": true,\n    \"max_results\": 3\n} ",
+        "jsonBody": "{\n    \"api_key\": \"REPLACE_IT_YOUR_DATA\",\n    \"query\": \"{searchTerm}\",\n    \"search_depth\": \"basic\",\n    \"include_answer\": true,\n    \"topic\": \"news\",\n    \"include_raw_content\": true,\n    \"max_results\": 3\n} ",
         "placeholderDefinitions": {
           "values": [
             {
@@ -284,8 +284,8 @@
       "webhookId": "65a5350f-96bf-4846-b7de-270c52d90510",
       "credentials": {
         "telegramApi": {
-          "id": "ZAmV9Bg8CB2dFI64",
-          "name": "has_matrix_bot"
+          "id": "REPLACE_IT_YOUR_DATA",
+          "name": "REPLACE_IT_YOUR_DATA"
         }
       }
     },
